@@ -1,0 +1,6 @@
+{
+  "name": "TaskPay",
+  "description": "Professional Micro Job, Earn Money, Wallet, Deposit, Withdrawal and Game Top-Up platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
