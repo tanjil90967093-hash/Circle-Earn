@@ -1,4 +1,4 @@
-package com.example
+package com.circleearn.circlettc
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -44,11 +44,11 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.example.ui.navigation.Screen
-import com.example.ui.screens.*
-import com.example.ui.theme.TaskPayTheme
-import com.example.ui.viewmodel.TaskPayViewModel
-import com.example.ui.viewmodel.TaskPayViewModelFactory
+import com.circleearn.circlettc.ui.navigation.Screen
+import com.circleearn.circlettc.ui.screens.*
+import com.circleearn.circlettc.ui.theme.TaskPayTheme
+import com.circleearn.circlettc.ui.viewmodel.TaskPayViewModel
+import com.circleearn.circlettc.ui.viewmodel.TaskPayViewModelFactory
 
 class MainActivity : ComponentActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {

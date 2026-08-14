@@ -1,4 +1,4 @@
-package com.example.data.local.dao
+package com.circleearn.circlettc.data.local.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
@@ -6,12 +6,12 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Transaction
 import androidx.room.Update
-import com.example.data.local.entity.CategoryEntity
-import com.example.data.local.entity.JobAssignmentEntity
-import com.example.data.local.entity.JobEntity
-import com.example.data.local.entity.TransactionEntity
-import com.example.data.local.entity.UserEntity
-import com.example.data.local.entity.WalletEntity
+import com.circleearn.circlettc.data.local.entity.CategoryEntity
+import com.circleearn.circlettc.data.local.entity.JobAssignmentEntity
+import com.circleearn.circlettc.data.local.entity.JobEntity
+import com.circleearn.circlettc.data.local.entity.TransactionEntity
+import com.circleearn.circlettc.data.local.entity.UserEntity
+import com.circleearn.circlettc.data.local.entity.WalletEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao

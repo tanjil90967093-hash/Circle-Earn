@@ -1,9 +1,9 @@
-package com.example.ui.viewmodel
+package com.circleearn.circlettc.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.example.data.repository.TaskPayRepository
+import com.circleearn.circlettc.data.repository.TaskPayRepository
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch

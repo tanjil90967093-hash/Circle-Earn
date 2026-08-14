@@ -1,4 +1,4 @@
-package com.example.ui.screens
+package com.circleearn.circlettc.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
@@ -9,7 +9,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.example.ui.viewmodel.TaskPayViewModel
+import com.circleearn.circlettc.ui.viewmodel.TaskPayViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -1,4 +1,4 @@
-package com.example.data.local.entity
+package com.circleearn.circlettc.data.local.entity
 
 import androidx.room.Entity
 import androidx.room.ForeignKey

@@ -1,8 +1,8 @@
-package com.example
+package com.circleearn.circlettc
 
 import android.app.Application
-import com.example.data.local.TaskPayDatabase
-import com.example.data.repository.TaskPayRepository
+import com.circleearn.circlettc.data.local.TaskPayDatabase
+import com.circleearn.circlettc.data.repository.TaskPayRepository
 
 class TaskPayApplication : Application() {
     val database by lazy { TaskPayDatabase.getDatabase(this) }

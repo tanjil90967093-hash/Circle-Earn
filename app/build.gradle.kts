@@ -11,11 +11,11 @@ plugins {
 }
 
 android {
-  namespace = "com.example"
+  namespace = "com.circleearn.circlettc"
   compileSdk { version = release(36) { minorApiLevel = 1 } }
 
   defaultConfig {
-    applicationId = "com.aistudio.circleearn"
+    applicationId = "com.circleearn.circlettc"
     minSdk = 24
     targetSdk = 36
     versionCode = 1

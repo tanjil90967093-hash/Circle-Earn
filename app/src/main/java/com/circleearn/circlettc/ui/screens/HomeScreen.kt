@@ -1,4 +1,4 @@
-package com.example.ui.screens
+package com.circleearn.circlettc.ui.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -19,13 +19,13 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.example.data.local.entity.CategoryEntity
-import com.example.data.local.entity.JobEntity
-import com.example.data.local.entity.WalletEntity
-import com.example.ui.theme.BannerGradientEnd
-import com.example.ui.theme.BannerGradientStart
-import com.example.ui.theme.TextPrimary
-import com.example.ui.viewmodel.TaskPayViewModel
+import com.circleearn.circlettc.data.local.entity.CategoryEntity
+import com.circleearn.circlettc.data.local.entity.JobEntity
+import com.circleearn.circlettc.data.local.entity.WalletEntity
+import com.circleearn.circlettc.ui.theme.BannerGradientEnd
+import com.circleearn.circlettc.ui.theme.BannerGradientStart
+import com.circleearn.circlettc.ui.theme.TextPrimary
+import com.circleearn.circlettc.ui.viewmodel.TaskPayViewModel
 
 @OptIn(ExperimentalMaterial3Api::class, androidx.compose.foundation.ExperimentalFoundationApi::class)
 @Composable

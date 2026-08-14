@@ -1,4 +1,4 @@
-package com.example.ui.navigation
+package com.circleearn.circlettc.ui.navigation
 
 import kotlinx.serialization.Serializable
 
