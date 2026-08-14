@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "TaskPay"
+rootProject.name = "Circle Earn"
 
 include(":app")
