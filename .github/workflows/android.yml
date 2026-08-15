@@ -22,8 +22,13 @@ jobs:
         distribution: 'temurin'
         cache: gradle
 
-    - name: Prepare environment and keystore
+    - name: Prepare environment, Gradle wrapper, and keystore
       run: |
+        mkdir -p gradle/wrapper
+        if [ ! -s "gradle/wrapper/gradle-wrapper.jar" ]; then
+          echo "gradle-wrapper.jar missing or empty. Downloading official Gradle wrapper jar..."
+          curl -sSL -o gradle/wrapper/gradle-wrapper.jar https://raw.githubusercontent.com/gradle/gradle/v9.3.1/gradle/wrapper/gradle-wrapper.jar
+        fi
         touch .env
         touch .env.example
         if [ -f "debug.keystore.base64" ]; then
